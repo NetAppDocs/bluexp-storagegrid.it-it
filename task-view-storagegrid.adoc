@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare i dettagli relativi alla distribuzione della capacità e agli avvisi, ai nodi e ai tenant associati. 
+---
+= Visualizza i tuoi sistemi StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare i dettagli relativi alla distribuzione della capacità e agli avvisi, ai nodi e ai tenant associati.
+
+.Fasi
+. Da Canvas, fare doppio clic sul nome dell'ambiente di lavoro StorageGRID che si desidera visualizzare.
+. Selezionare una delle schede per visualizzare ulteriori dettagli sul sistema StorageGRID:
++
+** *Panoramica*: Una vista dettagliata della distribuzione della capacità del sistema (capacità utilizzata e libera), del numero di avvisi di sistema, dei nodi e dei tenant e molto altro ancora.
++
+image:screenshot-overview.png["Schermata della scheda Panoramica in un ambiente di lavoro StorageGRID."]
+
+** *Avvisi*: Un riepilogo degli avvisi di sistema, che include avvisi attivi, avvisi risolti e avvisi tacitati.
+** *Nodes*: Dettagli sul nodo admin, sul nodo gateway API e sui nodi storage. Sono incluse le percentuali per i dati degli oggetti utilizzati, i metadati degli oggetti utilizzati e l'utilizzo della CPU.
++
+image:screenshot-nodes.png["Schermata della scheda Nodes in un ambiente di lavoro StorageGRID."]
+
+** *Tenant*: Dettagli chiave sui tenant, che includono lo spazio logico utilizzato, l'utilizzo delle quote, la quota e il numero di oggetti.
++
+image:screenshot-tenants.png["Schermata della scheda tenant in un ambiente di lavoro StorageGRID."]
+
+
+
+

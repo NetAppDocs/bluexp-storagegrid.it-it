@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: 'BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L"aggiunta di cluster StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.' 
+---
+= Scopri i sistemi StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di sistemi StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.
+
+.Di cosa hai bisogno
+* Un connettore installato in un cloud provider o on-premise, con connettività di rete al sistema StorageGRID.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Scopri di più sui connettori e su come crearne uno"^]
+
+* Il nome di dominio o l'indirizzo IP del nodo admin.
+* Credenziali di amministratore per il nodo admin.
+
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Storage > Canvas*.
+. Fare clic su *Aggiungi ambiente di lavoro* e selezionare *on-premise*.
+. Accanto a *StorageGRID*, selezionare *Discover*.
+. Se richiesto, creare un connettore.
++
+Per ulteriori informazioni, fare riferimento al link riportato sopra.
+
+. Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi fare clic su *Aggiungi*.
++
+image:screenshot-cluster-details.png["Una schermata che mostra la pagina Dettagli cluster StorageGRID in cui inserire il nome di dominio o l'indirizzo IP del nodo admin e le credenziali."]
+
+
+
+.Risultato
+BlueXP rileva il sistema StorageGRID e lo aggiunge come ambiente di lavoro su Canvas.
+
+image:screenshot-canvas.png["Una schermata che mostra un ambiente di lavoro StorageGRID su BlueXP Canvas."]
