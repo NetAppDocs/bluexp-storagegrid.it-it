@@ -1,1 +1,1 @@
-Sitemap: https://docs.netapp.com/it-it/cloud-manager-storagegrid/sitemap.xml
+Sitemap: https://docs.netapp.com/it-it/bluexp-storagegrid/sitemap.xml
