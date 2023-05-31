@@ -18,7 +18,7 @@ BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise
 .Di cosa hai bisogno
 * Un connettore installato in un cloud provider o on-premise, con connettività di rete al sistema StorageGRID.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Scopri di più sui connettori e su come crearne uno"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri di più sui connettori e su come crearne uno"^]
 
 * Il nome di dominio o l'indirizzo IP del nodo admin.
 * Credenziali di amministratore per il nodo admin.
