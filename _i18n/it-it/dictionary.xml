@@ -118,8 +118,6 @@
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">Una schermata dell'opzione Remove from Workspace (Rimuovi dall'area di lavoro) disponibile nel menu in alto a destra dell'ambiente di lavoro.</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">Fare clic su *Remove* (Rimuovi) per confermare.</block>
-  <block id="883eef4b617ed29c6215037626df7b5e" category="summary">Scopri i tuoi sistemi StorageGRID attraverso BlueXP per ottenere una vista completa dei dati nel tuo multicloud ibrido.</block>
-  <block id="3778f3873debfe11e2ace6bb6af1e417" category="doc">Documentazione StorageGRID</block>
   <block id="c99454978b70ce8c05ee8d05b1e2aaaf" category="summary">Scopri le novità della gestione dei sistemi StorageGRID in BlueXP.</block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">Novità della gestione StorageGRID</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 settembre 2022</block>
@@ -250,4 +248,6 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aggiornamento del software Cloud Volumes ONTAP alla versione più recente</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'associazione delle credenziali NSS all'account BlueXP è diversa dall'account NSS associato a un account utente BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Queste credenziali NSS sono associate all'ID account BlueXP specifico. Gli utenti che appartengono all'account BlueXP possono accedere a queste credenziali da *Support &gt; NSS Management*.</block>
+  <block id="b200dbe3ac15ec0df201a92f5a178425" category="summary">Scopri i tuoi sistemi StorageGRID di BlueXP per ottenere una vista completa dei dati nel tuo multicloud ibrido.</block>
+  <block id="e49fe84ab9de0d0293be60cd1cd89c71" category="doc">Gestione di StorageGRID con BlueXP</block>
 </blocks>
