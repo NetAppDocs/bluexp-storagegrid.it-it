@@ -19,10 +19,11 @@ Rimuovere un ambiente di lavoro StorageGRID se non si desidera più gestirlo da 
 La rimozione dell'ambiente di lavoro non influisce sul sistema StorageGRID. Puoi riscoprirlo da BlueXP in qualsiasi momento.
 
 .Fasi
-. Da Canvas, fare doppio clic sul nome dell'ambiente di lavoro StorageGRID.
-. Fare clic sull'icona del menu e selezionare *Rimuovi dall'area di lavoro*.
+. Dal menu di navigazione, selezionare *Storage > Canvas*.
+. Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.
+. Selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.
 +
 image:screenshot-remove.png["Una schermata dell'opzione Remove from Workspace (Rimuovi dall'area di lavoro) disponibile nel menu in alto a destra dell'ambiente di lavoro."]
 
-. Fare clic su *Remove* (Rimuovi) per confermare.
+. Selezionare *Rimuovi* per confermare.
 

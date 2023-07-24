@@ -16,7 +16,8 @@ summary: Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare 
 Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare i dettagli relativi alla distribuzione della capacità e agli avvisi, ai nodi e ai tenant associati.
 
 .Fasi
-. Da Canvas, fare doppio clic sul nome dell'ambiente di lavoro StorageGRID che si desidera visualizzare.
+. Dal menu di navigazione, selezionare *Storage > Canvas*.
+. Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID che si desidera visualizzare.
 . Selezionare una delle schede per visualizzare ulteriori dettagli sul sistema StorageGRID:
 +
 ** *Panoramica*: Una vista dettagliata della distribuzione della capacità del sistema (capacità utilizzata e libera), del numero di avvisi di sistema, dei nodi e dei tenant e molto altro ancora.

@@ -26,13 +26,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Storage > Canvas*.
-. Fare clic su *Aggiungi ambiente di lavoro* e selezionare *on-premise*.
+. Selezionare *Aggiungi ambiente di lavoro* e selezionare *on-premise*.
 . Accanto a *StorageGRID*, selezionare *Discover*.
 . Se richiesto, creare un connettore.
 +
 Per ulteriori informazioni, fare riferimento al link riportato sopra.
 
-. Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi fare clic su *Aggiungi*.
+. Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.
 +
 image:screenshot-cluster-details.png["Una schermata che mostra la pagina Dettagli cluster StorageGRID in cui inserire il nome di dominio o l'indirizzo IP del nodo admin e le credenziali."]
 

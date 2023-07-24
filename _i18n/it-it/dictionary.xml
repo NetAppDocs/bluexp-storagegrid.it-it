@@ -19,11 +19,9 @@
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">Credenziali di amministratore per il nodo admin.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
   <block id="520851e11d4657fa15ed8a11da0eec00" category="list-text">Dal menu di navigazione di BlueXP, selezionare *Storage &gt; Canvas*.</block>
-  <block id="dd7b7135b0a124cc17bc203de731ce8c" category="list-text">Fare clic su *Aggiungi ambiente di lavoro* e selezionare *on-premise*.</block>
   <block id="c1337bb911d61c7e24f0143c98280728" category="list-text">Accanto a *StorageGRID*, selezionare *Discover*.</block>
   <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">Se richiesto, creare un connettore.</block>
   <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">Per ulteriori informazioni, fare riferimento al link riportato sopra.</block>
-  <block id="f50edfcfb42c3810a2ab7cdb0717f656" category="list-text">Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi fare clic su *Aggiungi*.</block>
   <block id="b692c7e41f214f1934d82e1fb8c34551" category="inline-image-macro">Una schermata che mostra la pagina Dettagli cluster StorageGRID in cui inserire il nome di dominio o l'indirizzo IP del nodo admin e le credenziali.</block>
   <block id="6f4e41dd41fcea233053f2ba61b3e93c" category="paragraph"><block ref="6f4e41dd41fcea233053f2ba61b3e93c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Risultato</block>
@@ -60,10 +58,7 @@
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Questi numeri seriali sono comunemente denominati _numeri seriali PAYGO_ e vengono generati da BlueXP al momento dell'implementazione di Cloud Volumes ONTAP.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se disponi di un account a livello di cliente, puoi aggiungere uno o più account NSS.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se disponi di un account partner o reseller, puoi aggiungere uno o più account NSS, ma non possono essere aggiunti insieme agli account a livello di cliente.</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Nella parte superiore destra della console BlueXP, fare clic sull'icona Guida e selezionare *supporto*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Schermata del menu Help (Guida) in cui Support (Assistenza) è la prima opzione elencata</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Fare clic su *Gestione NSS &gt; Aggiungi account NSS*.</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Quando richiesto, fare clic su *Continue* per essere reindirizzati a una pagina di accesso Microsoft.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilizza Microsoft Azure Active Directory come provider di identità per i servizi di autenticazione specifici per il supporto e la concessione di licenze.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Nella pagina di accesso, fornire l'indirizzo e-mail e la password registrati del NetApp Support Site per eseguire il processo di autenticazione.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Queste azioni consentono a BlueXP di utilizzare il tuo account NSS per download di licenze, verifica dell'aggiornamento software e registrazioni di supporto future.</block>
@@ -98,7 +93,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp dovrebbe contattarti durante questo processo. Si tratta di un esercizio di assunzione per i nuovi utenti.</block>
   <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare i dettagli relativi alla distribuzione della capacità e agli avvisi, ai nodi e ai tenant associati.</block>
   <block id="c20219c45cfba3fdfc2396d8aa96c143" category="doc">Visualizza i tuoi sistemi StorageGRID</block>
-  <block id="d3303815967fe0fbdde9310a5ce39f60" category="list-text">Da Canvas, fare doppio clic sul nome dell'ambiente di lavoro StorageGRID che si desidera visualizzare.</block>
   <block id="847dbe3b8f852409d936c93bfb31177b" category="list-text">Selezionare una delle schede per visualizzare ulteriori dettagli sul sistema StorageGRID:</block>
   <block id="8cee006c52b25ffa341e9665d1f36032" category="list-text">*Panoramica*: Una vista dettagliata della distribuzione della capacità del sistema (capacità utilizzata e libera), del numero di avvisi di sistema, dei nodi e dei tenant e molto altro ancora.</block>
   <block id="ae796f15b5a3a00075075c6caecd9cfc" category="inline-image-macro">Schermata della scheda Panoramica in un ambiente di lavoro StorageGRID.</block>
@@ -113,11 +107,8 @@
   <block id="b501cdbb274f1f3688a32519c0624867" category="summary">Rimuovere un ambiente di lavoro StorageGRID se non si desidera più gestirlo da BlueXP.</block>
   <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">Rimuovere un ambiente di lavoro StorageGRID</block>
   <block id="25688ec9bc48b0c01ad79b9dd8586d35" category="paragraph">La rimozione dell'ambiente di lavoro non influisce sul sistema StorageGRID. Puoi riscoprirlo da BlueXP in qualsiasi momento.</block>
-  <block id="e2196663fe8ae041909eecbbe019e082" category="list-text">Da Canvas, fare doppio clic sul nome dell'ambiente di lavoro StorageGRID.</block>
-  <block id="b787a2a1998073d68d40ce850ecb5c3e" category="list-text">Fare clic sull'icona del menu e selezionare *Rimuovi dall'area di lavoro*.</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">Una schermata dell'opzione Remove from Workspace (Rimuovi dall'area di lavoro) disponibile nel menu in alto a destra dell'ambiente di lavoro.</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="40b851aafab82c78484c46169f816fd2" category="list-text">Fare clic su *Remove* (Rimuovi) per confermare.</block>
   <block id="c99454978b70ce8c05ee8d05b1e2aaaf" category="summary">Scopri le novità della gestione dei sistemi StorageGRID in BlueXP.</block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">Novità della gestione StorageGRID</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 settembre 2022</block>
@@ -141,10 +132,7 @@
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crea un caso con il supporto NetApp</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Oltre alle opzioni di supporto autonomo sopra descritte, puoi collaborare con uno specialista del supporto NetApp per risolvere eventuali problemi dopo l'attivazione del supporto.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Prima di iniziare</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">In BlueXP, fare clic su *Guida &gt; supporto*.</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Nella pagina *risorse*, scegliere una delle opzioni disponibili in supporto tecnico:</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Fai clic su *Chiamaci* per parlare con qualcuno al telefono. Viene visualizzata una pagina su netapp.com che elenca i numeri di telefono che è possibile chiamare.</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Fare clic su *Crea un caso* per aprire un ticket con uno specialista del supporto NetApp:</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servizio*: Selezionare il servizio a cui è associato il problema. Ad esempio, BlueXP quando si tratta di un problema di supporto tecnico relativo a flussi di lavoro o funzionalità all'interno del servizio.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Ambiente di lavoro*: Se applicabile allo storage, selezionare *Cloud Volumes ONTAP* o *on-premise* e quindi l'ambiente di lavoro associato.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">L'elenco degli ambienti di lavoro rientra nell'ambito dell'account, dell'area di lavoro e del connettore BlueXP selezionato nel banner superiore del servizio.</block>
@@ -156,7 +144,6 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Gli allegati sono limitati a 25 MB per file. Sono supportate le seguenti estensioni di file: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Schermata del modulo Crea un caso che consente di creare un caso con il supporto NetApp.</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Viene visualizzata una finestra a comparsa con il numero del caso di supporto. Uno specialista del supporto NetApp esaminerà il tuo caso e ti contatterà al più presto.</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Per una cronologia dei casi di supporto, fare clic su *Impostazioni &gt; Cronologia* e cercare le azioni denominate "Crea caso di supporto". Un pulsante all'estrema destra consente di espandere l'azione per visualizzare i dettagli.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di creare un caso:</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"Non sei autorizzato a creare un caso per il servizio selezionato"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilizza la chat integrata nel prodotto</block>
@@ -171,10 +158,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">È possibile aggiungere o rimuovere colonne di interesse e filtrare il contenuto di colonne come priorità e Stato. Altre colonne offrono funzionalità di ordinamento.</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Per ulteriori informazioni, consulta la procedura riportata di seguito.</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">A livello di caso, offriamo la possibilità di aggiornare le note del caso o chiudere un caso che non è già in stato chiuso o in attesa di chiusura.</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Fare clic su *Gestione casi* e, se richiesto, aggiungere l'account NSS a BlueXP.</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La pagina *Gestione del caso* mostra i casi aperti relativi all'account NSS associato all'account utente BlueXP. Si tratta dello stesso account NSS visualizzato nella parte superiore della pagina *gestione NSS*.</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Se si desidera, modificare le informazioni visualizzate nella tabella:</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">In *Organization's Cases* (casi dell'organizzazione), fare clic su *View* (Visualizza) per visualizzare tutti i casi associati alla società.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Modificare l'intervallo di date scegliendo un intervallo di date esatto o scegliendo un intervallo di tempo diverso.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Una schermata dell'opzione sopra la tabella nella pagina di gestione del caso che consente di scegliere un intervallo di date esatto o gli ultimi 7 giorni, 30 giorni o 3 mesi.</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrare il contenuto delle colonne.</block>
@@ -184,7 +169,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un'icona con tre punti che compare nell'ultima colonna della tabella</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Visualizza caso*: Visualizza tutti i dettagli relativi a un caso specifico.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aggiorna note sul caso*: Fornisci ulteriori dettagli sul problema oppure seleziona *carica file* per allegare fino a un massimo di cinque file.</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Chiudi caso*: Fornisci i dettagli sul motivo per cui stai chiudendo il caso e fai clic su *Chiudi caso*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Una schermata che mostra le azioni che è possibile eseguire dopo aver selezionato il menu nell'ultima colonna della tabella.</block>
   <block id="67d5dc044866a0ff55b817d754d94a3e" category="sidebar">Documenti StorageGRID</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
@@ -215,9 +199,7 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Modificare le colonne visualizzate nella tabella facendo clic su <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e quindi scegliere le colonne che si desidera visualizzare.</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Gestire un caso esistente facendo clic su <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Scopri come gestire le credenziali associate all'accesso a BlueXP</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Per utilizzare la funzione *creazione di un caso*, è necessario prima associare le credenziali del sito di supporto NetApp al login BlueXP.<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
@@ -228,10 +210,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">Per il supporto tecnico sulle seguenti soluzioni di cloud provider, fare riferimento a "Assistenza" nella documentazione di BlueXP relativa a tale prodotto.</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">Registrare l'account BlueXP per il supporto NetApp</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">Per registrarsi al supporto e attivare i diritti di supporto, un utente del proprio account BlueXP deve associare un account del sito di supporto NetApp al proprio account di accesso BlueXP. La modalità di registrazione al supporto NetApp dipende dal fatto che si disponga già di un account NetApp Support Site (NSS).</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">Nella parte superiore destra della console BlueXP, fare clic sull'icona Impostazioni e selezionare *credenziali*.</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">Fare clic su *User Credentials* (credenziali utente).</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Selezionare *Aggiungi credenziali NSS* e seguire la richiesta di autenticazione del sito di supporto NetApp.</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">Per confermare che la procedura di registrazione è stata eseguita correttamente, fare clic sull'icona Guida e selezionare *supporto*.</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">La pagina *risorse* dovrebbe mostrare che il tuo account è registrato per il supporto.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Una schermata che mostra il numero di serie di un account, una casella di controllo verde e il testo registrato per il supporto.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -250,4 +229,26 @@
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Queste credenziali NSS sono associate all'ID account BlueXP specifico. Gli utenti che appartengono all'account BlueXP possono accedere a queste credenziali da *Support &gt; NSS Management*.</block>
   <block id="b200dbe3ac15ec0df201a92f5a178425" category="summary">Scopri i tuoi sistemi StorageGRID di BlueXP per ottenere una vista completa dei dati nel tuo multicloud ibrido.</block>
   <block id="e49fe84ab9de0d0293be60cd1cd89c71" category="doc">Gestione di StorageGRID con BlueXP</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">Nella parte superiore destra della console BlueXP, selezionare l'icona Impostazioni e selezionare *credenziali*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selezionare *User Credentials* (credenziali utente).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Per confermare che la procedura di registrazione è stata eseguita correttamente, selezionare l'icona Guida e selezionare *supporto*.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">Nella parte superiore destra della console BlueXP, selezionare l'icona della Guida e selezionare *supporto*.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selezionare *Gestione NSS &gt; Aggiungi account NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Quando richiesto, selezionare *continua* per essere reindirizzato a una pagina di accesso Microsoft.</block>
+  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Dal menu di navigazione, selezionare *Storage &gt; Canvas*.</block>
+  <block id="6d6c5d7b899ea63b1f3c62a6a3d3aded" category="list-text">Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID che si desidera visualizzare.</block>
+  <block id="8f20fc8b3a6d888979d83b127b3a4d75" category="list-text">Selezionare *Aggiungi ambiente di lavoro* e selezionare *on-premise*.</block>
+  <block id="93ad647dcc5c80e370a62d0e1bd59efd" category="list-text">Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">In BlueXP, selezionare *Guida &gt; supporto*.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selezionare *Chiamateci* se si desidera parlare con qualcuno al telefono. Viene visualizzata una pagina su netapp.com che elenca i numeri di telefono che è possibile chiamare.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selezionare *Crea un caso* per aprire un ticket con uno specialista del supporto NetApp:</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Per una cronologia dei casi di supporto, selezionare *Impostazioni &gt; Cronologia* e cercare le azioni denominate "Crea caso di supporto". Un pulsante all'estrema destra consente di espandere l'azione per visualizzare i dettagli.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Selezionare *Gestione casi* e, se richiesto, aggiungere l'account NSS a BlueXP.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">In *Organization's Cases* (casi dell'organizzazione), selezionare *View* (Visualizza) per visualizzare tutti i casi associati alla società.</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Modificare le colonne visualizzate nella tabella selezionando <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e quindi scegliere le colonne che si desidera visualizzare.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gestire un caso esistente selezionando <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Chiudi caso*: Fornisci i dettagli sul motivo per cui stai chiudendo il caso e seleziona *Chiudi caso*.</block>
+  <block id="406c30b739850b514bd88f29f8026dcb" category="list-text">Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.</block>
+  <block id="b8dc050f4cabd621e66612bd76c5bb89" category="list-text">Selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">Selezionare *Rimuovi* per confermare.</block>
 </blocks>
