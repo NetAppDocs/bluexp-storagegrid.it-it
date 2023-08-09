@@ -13,6 +13,7 @@ summary: Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare 
 :imagesdir: ./media/
 
 
+[role="lead"]
 Dopo aver individuato i sistemi StorageGRID, è possibile visualizzare i dettagli relativi alla distribuzione della capacità e agli avvisi, ai nodi e ai tenant associati.
 
 .Fasi

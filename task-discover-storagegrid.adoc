@@ -13,6 +13,7 @@ summary: 'BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente 
 :imagesdir: ./media/
 
 
+[role="lead"]
 BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di sistemi StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.
 
 .Di cosa hai bisogno

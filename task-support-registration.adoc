@@ -10,6 +10,7 @@ summary: Prima di aprire un caso di supporto con il supporto tecnico NetApp, è 
 :imagesdir: ../media/
 
 
+[role="lead"]
 Per l'account BlueXP e per i singoli sistemi Cloud Volumes ONTAP è richiesta la registrazione del supporto.
 
 
