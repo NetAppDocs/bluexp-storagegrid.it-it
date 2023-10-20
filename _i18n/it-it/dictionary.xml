@@ -12,7 +12,6 @@
   <block id="2c71302d487f8187b7a71c37c179042c" category="summary">BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di cluster StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">Scopri i sistemi StorageGRID</block>
   <block id="eceb40fde78eb6b6f2f6a7bff798d050" category="paragraph">BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di sistemi StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">Di cosa hai bisogno</block>
   <block id="031f2c2a8e686936eab9e36e2d0d5c66" category="list-text">Un connettore installato in un cloud provider o on-premise, con connettività di rete al sistema StorageGRID.</block>
   <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">Scopri di più sui connettori e su come crearne uno</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">Il nome di dominio o l'indirizzo IP del nodo admin.</block>
@@ -100,7 +99,6 @@
   <block id="e51c4414740e4f4ba2e02bd06c8d9e88" category="inline-image-macro">Schermata della scheda tenant in un ambiente di lavoro StorageGRID.</block>
   <block id="c99b6babe545010e47410b64d23e3096" category="paragraph"><block ref="c99b6babe545010e47410b64d23e3096" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b501cdbb274f1f3688a32519c0624867" category="summary">Rimuovere un ambiente di lavoro StorageGRID se non si desidera più gestirlo da BlueXP.</block>
-  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">Rimuovere un ambiente di lavoro StorageGRID</block>
   <block id="25688ec9bc48b0c01ad79b9dd8586d35" category="paragraph">La rimozione dell'ambiente di lavoro non influisce sul sistema StorageGRID. Puoi riscoprirlo da BlueXP in qualsiasi momento.</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">Una schermata dell'opzione Remove from Workspace (Rimuovi dall'area di lavoro) disponibile nel menu in alto a destra dell'ambiente di lavoro.</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
@@ -170,7 +168,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
   <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">Scopri i tuoi sistemi StorageGRID</block>
   <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">Gestire i sistemi StorageGRID</block>
-  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">Rimuovere i sistemi StorageGRID</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
   <block id="5a48514fa915876d588438500b09c18f" category="sidebar">Rimuovere StorageGRID</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Ulteriori informazioni</block>
@@ -256,4 +253,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un file service del cloud provider</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per supporto tecnico relativo a un file service di un cloud provider, alla sua infrastruttura o a una soluzione che utilizza il servizio, fare riferimento a "Guida in linea" nella documentazione BlueXP relativa a quel prodotto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
+  <block id="724a6db0c5e9b582c8f6ea917749db0a" category="doc">Rimuovere un ambiente di lavoro StorageGRID</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Prima di iniziare</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">Sono necessari i seguenti elementi:</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
+  <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">Rimuovere un ambiente di lavoro</block>
 </blocks>
