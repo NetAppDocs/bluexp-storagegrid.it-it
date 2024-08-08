@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato. 
+---
+= Gestire i certificati in BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+I certificati dell'interfaccia di gestione approvati dall'utente sono necessari per una connessione sicura tra BlueXP  e StorageGRID. Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.
+
+
+
+== Visualizzare lo stato del certificato di inferenza di gestione
+
+.Fasi
+. Dal menu di navigazione, selezionare *Storage > Canvas*.
+. Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.
+. Nella vista standard, verificare lo stato del certificato approvato dall'utente nella parte inferiore del riquadro _Information_ sul lato destro della pagina.
++
+
+NOTE: Lo stato del certificato viene aggiornato ogni 24 ore.
+
++
+image:screenshot-standard-view-information.png["Schermata del riquadro informazioni nell'ambiente di lavoro."]
+
+
+
+
+
+== Aggiornare il certificato dell'interfaccia di gestione
+
+Se lo stato del certificato dell'interfaccia di gestione non è valido o se si riceve una notifica che indica che il certificato è scaduto, sarà necessario aggiornarlo in modo che BlueXP  possa connettersi a StorageGRID.
+
+.Fasi
+. Accedere al Grid Manager in sede in StorageGRID e seguire le istruzioni per https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installazione di un certificato di interfaccia di gestione su StorageGRID"].
+. Nel menu di navigazione Blue XP, selezionare *Storage > Canvas*.
+. Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.
+. Selezionare l'icona altre opzioni (cerchio con tre punti verticali).
++
+image:screenshot-update-certificate.png["Schermata del menu di aggiornamento."]
+
+. Selezionare *Aggiorna certificato*.
++
+
+NOTE: È inoltre possibile aggiornare il certificato utilizzando l'icona altre opzioni (l'icona con tre punti verticali) nella vista Standard.
+
++
+image:screenshot-bluexp-approve-certificate.png["Schermata che mostra la schermata approva certificato visualizzata durante il rilevamento di un sistema StorageGRID"]
+
+. Nella pagina _approva certificato_, selezionare *approva certificato* per utilizzare il certificato aggiornato.
+

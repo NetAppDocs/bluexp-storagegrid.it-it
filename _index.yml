@@ -1,11 +1,11 @@
 ---
 indexpage:
   title: Gestione di StorageGRID con BlueXP
-  summary: Scopri i tuoi sistemi StorageGRID di BlueXP per ottenere una vista completa
-    dei dati nel tuo multicloud ibrido.
+  summary: Gestisci i tuoi sistemi StorageGRID da BlueXP  utilizzando Grid Manager
+    e utilizza i servizi dati di BlueXP per backup, tiering dei dati e altro ancora.
   keywords: storagegrid systems, bluexp, data, hybrid, multicloud
-  lead: Scopri i tuoi sistemi StorageGRID di BlueXP per ottenere una vista completa
-    dei dati nel tuo multicloud ibrido.
+  lead: Gestisci i tuoi sistemi StorageGRID da BlueXP  utilizzando Grid Manager e
+    utilizza i servizi dati di BlueXP per backup, tiering dei dati e altro ancora.
   tiles:
   - title: Inizia subito
     links:
@@ -22,7 +22,7 @@ indexpage:
   - title: Ulteriori informazioni
     links:
     - title: Documentazione StorageGRID per la gestione al di fuori di BlueXP
-      url: https://docs.netapp.com/us-en/storagegrid-116/
+      url: https://docs.netapp.com/us-en/storagegrid-118/
   - title: Blog e community
     links:
     - title: Community NetApp

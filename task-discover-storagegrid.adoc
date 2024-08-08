@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: 'BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L"aggiunta di cluster StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.' 
+summary: Scopri i sistemi StorageGRID nel tuo ambiente on-premise e gestili direttamente da BlueXP  utilizzando Grid Manager. 
 ---
 = Scopri i sistemi StorageGRID
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente 
 
 
 [role="lead"]
-BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di sistemi StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.
+Scopri i sistemi StorageGRID nel tuo ambiente on-premise e gestili direttamente da BlueXP  utilizzando Grid Manager.
 
 .Prima di iniziare
 Sono necessari i seguenti elementi:
@@ -25,6 +25,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri
 
 * Il nome di dominio o l'indirizzo IP del nodo admin.
 * Credenziali di amministratore per il nodo admin.
+* Un certificato di interfaccia di gestione installato sul sistema StorageGRID.
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Ulteriori informazioni sull'installazione di un certificato di interfaccia di gestione su StorageGRID"^]
+
 
 
 .Fasi
@@ -35,9 +39,30 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri
 +
 Per ulteriori informazioni, fare riferimento al link riportato sopra.
 
-. Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.
+. Nella pagina _Dettagli cluster StorageGRID_ di BlueXP , immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.
 +
 image:screenshot-cluster-details.png["Una schermata che mostra la pagina Dettagli cluster StorageGRID in cui inserire il nome di dominio o l'indirizzo IP del nodo admin e le credenziali."]
+
+. BlueXP  recupera automaticamente il certificato dell'interfaccia di gestione StorageGRID. Nella pagina _approva certificato_, esaminare i dettagli del certificato.
++
+image:screenshot-bluexp-approve-certificate.png["Schermata che mostra la schermata approva certificato visualizzata durante il rilevamento di un sistema StorageGRID"]
+
+. Se si desidera utilizzare un certificato diverso da quello visualizzato, è necessario prima configurarlo sul sistema StorageGRID.
++
+.. Nel sistema StorageGRID in loco, seguire le istruzioni: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installazione di un certificato di interfaccia di gestione su StorageGRID"^].
+.. Dopo aver configurato il certificato nel sistema StorageGRID, selezionare *Annulla* nella pagina _approva certificato_ in BlueXP .
+.. Nella pagina _Dettagli cluster StorageGRID_, selezionare *Aggiungi*.
+
+
+. In alternativa, selezionare *Copia certificato* per copiare i dettagli del certificato. Se lo si desidera, è possibile utilizzare i dettagli del certificato per eseguire una convalida aggiuntiva.
+. Effettuare una delle seguenti operazioni:
++
+.. Selezionare *approva certificato* per utilizzare il certificato.
++
+Viene visualizzato un messaggio di successo. Tutte le comunicazioni tra il server StorageGRID e il connettore BlueXP  verranno protette verificando il certificato approvato.
+
+.. Selezionare *Annulla* per terminare il processo di ricerca senza verificare il certificato. Ad esempio, è possibile selezionare *Annulla* se si riceve un messaggio di errore che informa che il certificato di gestione StorageGRID deve essere aggiornato. Per aggiornare un certificato, accedere a <<use-a-different-certificate,USA un certificato diverso>>.
+
 
 
 

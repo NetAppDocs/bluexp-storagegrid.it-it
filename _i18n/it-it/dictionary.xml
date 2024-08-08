@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="54bd03a569afb098328ca82511616f55" category="summary">Dopo aver scoperto un sistema StorageGRID in BlueXP, puoi utilizzare i servizi dati di NetApp con StorageGRID per backup e sincronizzazione dei dati.</block>
   <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">Utilizza i servizi dati NetApp con StorageGRID</block>
-  <block id="b88241859cee076fd3a4ddaeda099288" category="paragraph">Dopo aver scoperto un sistema StorageGRID in BlueXP, puoi utilizzare i servizi dati di NetApp per backup e sincronizzazione dei dati.</block>
   <block id="562a1ca3f27bbce8f867c759f82d02dc" category="list-text">Utilizza il backup e ripristino BlueXP per eseguire il backup dei dati dai sistemi ONTAP on-premise allo storage a oggetti nei sistemi NetApp StorageGRID.</block>
   <block id="ead1951b53a3b76661043b6bf5ff1b48" category="paragraph">Per iniziare, accedi all'area di lavoro BlueXP e trascina un ambiente di lavoro ONTAP on-premise sull'ambiente di lavoro StorageGRID.</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">Scopri di più sul backup on-premise dei dati ONTAP su StorageGRID</block>
   <block id="b99ff865a132e7a6116d680732bd74a1" category="list-text">Utilizzare la copia e la sincronizzazione BlueXP per sincronizzare i dati da o verso un sistema StorageGRID.</block>
   <block id="e1bb8de567622bad90039f45af7d579c" category="paragraph">Per iniziare, accedi all'area di lavoro di BlueXP e trascina l'ambiente di lavoro di origine nell'ambiente di lavoro di destinazione. StorageGRID può essere l'origine o la destinazione.</block>
   <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">Scopri di più sulla copia e la sincronizzazione di BlueXP</block>
-  <block id="2c71302d487f8187b7a71c37c179042c" category="summary">BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di cluster StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">Scopri i sistemi StorageGRID</block>
-  <block id="eceb40fde78eb6b6f2f6a7bff798d050" category="paragraph">BlueXP è in grado di rilevare i sistemi StorageGRID nel tuo ambiente on-premise. L'aggiunta di sistemi StorageGRID a BlueXP consente di ottenere una vista completa dei dati nel multicloud ibrido.</block>
   <block id="031f2c2a8e686936eab9e36e2d0d5c66" category="list-text">Un connettore installato in un cloud provider o on-premise, con connettività di rete al sistema StorageGRID.</block>
   <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">Scopri di più sui connettori e su come crearne uno</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">Il nome di dominio o l'indirizzo IP del nodo admin.</block>
@@ -213,7 +209,6 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aggiornamento del software Cloud Volumes ONTAP alla versione più recente</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'associazione delle credenziali NSS all'account BlueXP è diversa dall'account NSS associato a un account utente BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Queste credenziali NSS sono associate all'ID account BlueXP specifico. Gli utenti che appartengono all'account BlueXP possono accedere a queste credenziali da *Support &gt; NSS Management*.</block>
-  <block id="b200dbe3ac15ec0df201a92f5a178425" category="summary">Scopri i tuoi sistemi StorageGRID di BlueXP per ottenere una vista completa dei dati nel tuo multicloud ibrido.</block>
   <block id="e49fe84ab9de0d0293be60cd1cd89c71" category="doc">Gestione di StorageGRID con BlueXP</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">Nella parte superiore destra della console BlueXP, selezionare l'icona Impostazioni e selezionare *credenziali*.</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selezionare *User Credentials* (credenziali utente).</block>
@@ -224,7 +219,6 @@
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Dal menu di navigazione, selezionare *Storage &gt; Canvas*.</block>
   <block id="6d6c5d7b899ea63b1f3c62a6a3d3aded" category="list-text">Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID che si desidera visualizzare.</block>
   <block id="8f20fc8b3a6d888979d83b127b3a4d75" category="list-text">Selezionare *Aggiungi ambiente di lavoro* e selezionare *on-premise*.</block>
-  <block id="93ad647dcc5c80e370a62d0e1bd59efd" category="list-text">Nella pagina _Dettagli cluster StorageGRID_, immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.</block>
   <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">In BlueXP, selezionare *Guida &gt; supporto*.</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selezionare *Chiamateci* se si desidera parlare con qualcuno al telefono. Viene visualizzata una pagina su netapp.com che elenca i numeri di telefono che è possibile chiamare.</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selezionare *Crea un caso* per aprire un ticket con uno specialista del supporto NetApp:</block>
@@ -235,7 +229,6 @@
   <block id="348552521b849746260fe8d296d34c15" category="list-text">Gestire un caso esistente selezionando <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Chiudi caso*: Fornisci i dettagli sul motivo per cui stai chiudendo il caso e seleziona *Chiudi caso*.</block>
   <block id="406c30b739850b514bd88f29f8026dcb" category="list-text">Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.</block>
-  <block id="b8dc050f4cabd621e66612bd76c5bb89" category="list-text">Selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.</block>
   <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">Selezionare *Rimuovi* per confermare.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
@@ -256,4 +249,118 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
   <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">Rimuovere un ambiente di lavoro</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilizza Microsoft Entra ID come provider di identità per i servizi di autenticazione specifici per il supporto e la licenza.</block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">I problemi noti identificano i problemi che potrebbero impedire l'utilizzo corretto di questa versione del prodotto.</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">Problemi noti</block>
+  <block id="406e3fd6e3e44c34fe5128c92e258696" category="section-title">I nomi visualizzati aggiornati non vengono visualizzati in BlueXP </block>
+  <block id="f3d3237068f97452e5b4aa1b7132e2ca" category="paragraph">Se si utilizza la procedura di ridenominazione per definire un nuovo nome di visualizzazione per un sito o una griglia, il nuovo nome di visualizzazione non viene riflesso nell'ambiente di lavoro BlueXP . L'ambiente di lavoro continua a mostrare il nome del sistema e non il nuovo nome visualizzato.</block>
+  <block id="4184c004c3d306eac4540e4aefb2f6a9" category="section-title">Errore durante il filtraggio degli avvisi</block>
+  <block id="57e6970cf13aa98ffd7faf72c61853bb" category="paragraph">Quando si utilizza la visualizzazione avanzata, il filtraggio del contenuto della pagina Avvisi genera un errore.</block>
+  <block id="1998a0486c5c4169c29f007cc908c1d7" category="section-title">Errore durante la modifica della connessione di federazione della griglia</block>
+  <block id="5094a282c5a9bba09561ad9a388f91c5" category="paragraph">Quando si utilizza la visualizzazione avanzata, potrebbe verificarsi un errore di timeout del gateway durante la modifica di una connessione di federazione della griglia.</block>
+  <block id="ca95441ef4631129374f024b6d393b1f" category="summary">Amministrare un sistema StorageGRID da BlueXP  utilizzando la vista avanzata. Questa visualizzazione consente di utilizzare Gestione griglia dall'ambiente di lavoro StorageGRID.</block>
+  <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="doc">Amministrare StorageGRID utilizzando la vista avanzata</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">Configurazioni supportate</block>
+  <block id="305098a5de64e9f68d6eda7ca5dbf5a0" category="paragraph">Grid Manager è disponibile in BlueXP  a partire da StorageGRID 11,8.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitazioni</block>
+  <block id="ca3a25e6f7a6261aa863d68a55e50f76" category="paragraph">Le seguenti operazioni di gestione griglia non sono disponibili in BlueXP . Se è necessario eseguire queste operazioni, accedere direttamente a Grid Manager.</block>
+  <block id="e56c7ead55fc1e5f499eae95a4a912b3" category="cell">Menu Grid Manager</block>
+  <block id="7456c3a0c9b400bcee741b332ff9065d" category="cell">Operazioni non disponibili da BlueXP </block>
+  <block id="8f9bfe9d1345237cb3b2b205864da075" category="paragraph">Utente</block>
+  <block id="f37627b09b882611b44ff399a9c378e9" category="list-text">Link di disconnessione</block>
+  <block id="baeaf581efec254c255d808076ebb8b5" category="list-text">Collegamento alla documentazione API</block>
+  <block id="0b39c5aca15b84b1ad53a94d6b3feb78" category="list-text">Cambia password</block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="paragraph">Nodi</block>
+  <block id="3a4d215d512d4ae5edd991d81bf9972e" category="list-text">Non è possibile accedere a Gestione di sistema SANtricity dalla scheda nodi &gt; Gestione di sistema SANtricity.</block>
+  <block id="97e48133192510ab2ce4a4c7af40d7c1" category="list-text">Durante la visualizzazione degli avvisi, potrebbe non essere possibile selezionare tutti i collegamenti nelle azioni consigliate. Ad esempio, i collegamenti alle pagine di Grid Manager non supportate non funzionano.</block>
+  <block id="ab46b0da4c689d676afbc74038c40f71" category="paragraph">Tenant</block>
+  <block id="52e8a870e31fcf345b37b10609383a35" category="paragraph">Non è possibile accedere a un account tenant dalla procedura guidata Crea un tenant o dalla pagina tenant.</block>
+  <block id="0571f42ac82b33bb3b9fad8f666edd67" category="paragraph">BlueXP  attualmente non supporta il responsabile del tenant. Anche se puoi creare nuovi account tenant da BlueXP , gli utenti tenant non possono accedere ai loro account da BlueXP .</block>
+  <block id="45a63ab8cbf11a8d14e5315e7199fcbd" category="paragraph">ILM</block>
+  <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">Collegamento gradi archiviazione</block>
+  <block id="254f642527b45bc260048e30704edb39" category="paragraph">Configurazione</block>
+  <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">Password di rete</block>
+  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">Classificazione del traffico &gt; metriche</block>
+  <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">Impostazioni di protezione &gt; Timeout inattività browser</block>
+  <block id="f349dbd269e091419d25308532e10fa9" category="list-text">Single sign-on</block>
+  <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">Agente SNMP &gt; file MIB per interfaccia BMC</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="paragraph">Manutenzione</block>
+  <block id="1c099fee7c6387b021909926b4fbcf98" category="list-text">Pacchetto di ripristino</block>
+  <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">Aggiornamento del software</block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">Supporto</block>
+  <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">Topologia a griglia</block>
+  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">Registri</block>
+  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">Metriche, inclusi tutti i collegamenti alle metriche Prometheus e alle dashboard Grafana da altri punti dell'interfaccia utente.</block>
+  <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">Tutte le opzioni per gli allarmi legacy</block>
+  <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">Costo del collegamento</block>
+  <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">Entità NMS</block>
+  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">Passare alla vista avanzata</block>
+  <block id="dca5530b7cbaaea67b0c8d5cb6158e4c" category="paragraph">Aprire un ambiente di lavoro StorageGRID e selezionare l'opzione di visualizzazione avanzata.</block>
+  <block id="3d999d1b9f9b777ebfbfa7f1318c804f" category="list-text">Dalla pagina Canvas, aprire l'ambiente di lavoro StorageGRID.</block>
+  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">In alto a destra, selezionare *passa alla visualizzazione avanzata*.</block>
+  <block id="507372019d28fd0eafd2c78e55dd76b1" category="inline-image-macro">Schermata di un ambiente di lavoro StorageGRID che mostra l'opzione passa alla visualizzazione avanzata.</block>
+  <block id="c773beb9e5504345109d5b8f63ffae18" category="paragraph"><block ref="c773beb9e5504345109d5b8f63ffae18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Utilizzare Gestione griglia per gestire il sistema StorageGRID.</block>
+  <block id="7c172735790e8cc4c9872774830ec348" category="paragraph">Una differenza di cui tenere conto è che il menu Guida in Grid Manager è stato sostituito dal seguente menu:</block>
+  <block id="e94ee64c9feb1bac535b160442e2478d" category="inline-image-macro">Schermata di un ambiente di lavoro StorageGRID in cui è disponibile un menu di azione nella parte superiore destra dello schermo.</block>
+  <block id="4abd7b0e29ad85015c2ab957554dd1f2" category="paragraph"><block ref="4abd7b0e29ad85015c2ab957554dd1f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="26ae08b3bd9f7a3c87ee9c1d77d4b82b" category="paragraph">In questo menu sono disponibili tutte le stesse opzioni della guida, ad eccezione del collegamento alla documentazione API.</block>
+  <block id="353a38b7d64b63f77c3a30bb9e354366" category="list-text">Se necessario, selezionare passa alla vista standard per tornare alla vista standard tramite BlueXP .</block>
+  <block id="c3be445d4276660b8cb6c62e48bd1553" category="inline-image-macro">Schermata di un ambiente di lavoro StorageGRID che mostra l'opzione passa alla vista standard.</block>
+  <block id="a7b062924ce28d07b0b9507476bc7af4" category="paragraph"><block ref="a7b062924ce28d07b0b9507476bc7af4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Assistenza con Grid Manager</block>
+  <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">Documentazione StorageGRID</block>
+  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Per informazioni dettagliate sull'utilizzo di Grid Manager, consultare la sezione<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> .</block>
+  <block id="66bf914b4a3e3fe55e547c93de610f4f" category="summary">Scopri i sistemi StorageGRID nel tuo ambiente on-premise e gestili direttamente da BlueXP  utilizzando Grid Manager.</block>
+  <block id="7946381c1469da9982f0ec23675e074e" category="list-text">Un certificato di interfaccia di gestione installato sul sistema StorageGRID.</block>
+  <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">Ulteriori informazioni sull'installazione di un certificato di interfaccia di gestione su StorageGRID</block>
+  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
+  <block id="8f39c6397486565c889c697d2ee0f204" category="list-text">Nella pagina _Dettagli cluster StorageGRID_ di BlueXP , immettere il nome di dominio o l'indirizzo IP del nodo admin, le credenziali per il nodo, quindi selezionare *Aggiungi*.</block>
+  <block id="883de86cf908ad706df604bca20d6e9d" category="list-text">BlueXP  recupera automaticamente il certificato dell'interfaccia di gestione StorageGRID. Nella pagina _approva certificato_, esaminare i dettagli del certificato.</block>
+  <block id="bd9fb575ba237f8ebfeb0706ecdcbb14" category="inline-image-macro">Schermata che mostra la schermata approva certificato visualizzata durante il rilevamento di un sistema StorageGRID</block>
+  <block id="5d2ec429ab6adc62b7ef0809eb5d31b6" category="paragraph"><block ref="5d2ec429ab6adc62b7ef0809eb5d31b6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="99ffc4996ddbc66ec3d88c9143de92ee" category="list-text">Se si desidera utilizzare un certificato diverso da quello visualizzato, è necessario prima configurarlo sul sistema StorageGRID.</block>
+  <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">Installazione di un certificato di interfaccia di gestione su StorageGRID</block>
+  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">Nel sistema StorageGRID in loco, seguire le istruzioni:<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block>.</block>
+  <block id="db712f470bd74a71528f96d96eeba458" category="list-text">Dopo aver configurato il certificato nel sistema StorageGRID, selezionare *Annulla* nella pagina _approva certificato_ in BlueXP .</block>
+  <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">Nella pagina _Dettagli cluster StorageGRID_, selezionare *Aggiungi*.</block>
+  <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">In alternativa, selezionare *Copia certificato* per copiare i dettagli del certificato. Se lo si desidera, è possibile utilizzare i dettagli del certificato per eseguire una convalida aggiuntiva.</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Effettuare una delle seguenti operazioni:</block>
+  <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">Selezionare *approva certificato* per utilizzare il certificato.</block>
+  <block id="deac8378c59fe3d88512463d35486723" category="paragraph">Viene visualizzato un messaggio di successo. Tutte le comunicazioni tra il server StorageGRID e il connettore BlueXP  verranno protette verificando il certificato approvato.</block>
+  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">USA un certificato diverso</block>
+  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">Selezionare *Annulla* per terminare il processo di ricerca senza verificare il certificato. Ad esempio, è possibile selezionare *Annulla* se si riceve un messaggio di errore che informa che il certificato di gestione StorageGRID deve essere aggiornato. Per aggiornare un certificato, accedere a <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>.</block>
+  <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">Dopo il rilevamento di un sistema StorageGRID in BlueXP , puoi utilizzare i servizi dati NetApp per backup, tiering dei dati e sincronizzazione.</block>
+  <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">Utilizza il tiering BlueXP  per eseguire automaticamente il tiering dei dati inattivi dai cluster ONTAP on-premise a StorageGRID.</block>
+  <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">Scopri di più sul tiering dei dati dai cluster ONTAP on-premise a StorageGRID</block>
+  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
+  <block id="1c0cf398fca729802189afd04195daca" category="summary">Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.</block>
+  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">Gestire i certificati in BlueXP </block>
+  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">I certificati dell'interfaccia di gestione approvati dall'utente sono necessari per una connessione sicura tra BlueXP  e StorageGRID. Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.</block>
+  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">Visualizzare lo stato del certificato di inferenza di gestione</block>
+  <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">Nella vista standard, verificare lo stato del certificato approvato dall'utente nella parte inferiore del riquadro _Information_ sul lato destro della pagina.</block>
+  <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">Lo stato del certificato viene aggiornato ogni 24 ore.</block>
+  <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">Schermata del riquadro informazioni nell'ambiente di lavoro.</block>
+  <block id="2b7070d3984c3c33331810ef399a04bf" category="paragraph"><block ref="2b7070d3984c3c33331810ef399a04bf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">Aggiornare il certificato dell'interfaccia di gestione</block>
+  <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">Se lo stato del certificato dell'interfaccia di gestione non è valido o se si riceve una notifica che indica che il certificato è scaduto, sarà necessario aggiornarlo in modo che BlueXP  possa connettersi a StorageGRID.</block>
+  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">Accedere al Grid Manager in sede in StorageGRID e seguire le istruzioni per<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>.</block>
+  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">Nel menu di navigazione Blue XP, selezionare *Storage &gt; Canvas*.</block>
+  <block id="40540158a277d365081d54ce377ee023" category="list-text">Selezionare l'icona altre opzioni (cerchio con tre punti verticali).</block>
+  <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">Schermata del menu di aggiornamento.</block>
+  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">Selezionare *Aggiorna certificato*.</block>
+  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">È inoltre possibile aggiornare il certificato utilizzando l'icona altre opzioni (l'icona con tre punti verticali) nella vista Standard.</block>
+  <block id="434da4cffed06e08c23765d021db1afc" category="list-text">Nella pagina _approva certificato_, selezionare *approva certificato* per utilizzare il certificato aggiornato.</block>
+  <block id="101a4dba130db08f412262b11097db65" category="list-text">Nella vista standard, selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.</block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">7 agosto 2024</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="section-title">Nuova vista avanzata</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">A partire da StorageGRID 11,8, è possibile utilizzare la familiare interfaccia di gestione griglia per gestire il sistema StorageGRID da BlueXP .</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">Informazioni su come amministrare StorageGRID utilizzando la visualizzazione avanzata</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block>.</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">Possibilità di rivedere e approvare il certificato dell'interfaccia di gestione StorageGRID</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">È ora possibile esaminare e approvare un certificato dell'interfaccia di gestione StorageGRID quando si rileva il sistema StorageGRID da BlueXP . È inoltre possibile esaminare e approvare il certificato più recente dell'interfaccia di gestione StorageGRID in una griglia scoperta.</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">Informazioni su come esaminare e approvare il certificato del server durante il rilevamento del sistema.</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">Gestisci i tuoi sistemi StorageGRID da BlueXP  utilizzando Grid Manager e utilizza i servizi dati di BlueXP per backup, tiering dei dati e altro ancora.</block>
+  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">Gestire i certificati</block>
 </blocks>

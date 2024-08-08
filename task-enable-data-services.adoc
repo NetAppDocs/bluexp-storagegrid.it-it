@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: Dopo aver scoperto un sistema StorageGRID in BlueXP, puoi utilizzare i servizi dati di NetApp con StorageGRID per backup e sincronizzazione dei dati. 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: Dopo il rilevamento di un sistema StorageGRID in BlueXP , puoi utilizzare i servizi dati NetApp per backup, tiering dei dati e sincronizzazione. 
 ---
 = Utilizza i servizi dati NetApp con StorageGRID
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Dopo aver scoperto un sistema StorageGRID in BlueXP, puoi utilizzare i 
 
 
 [role="lead"]
-Dopo aver scoperto un sistema StorageGRID in BlueXP, puoi utilizzare i servizi dati di NetApp per backup e sincronizzazione dei dati.
+Dopo il rilevamento di un sistema StorageGRID in BlueXP , puoi utilizzare i servizi dati NetApp per backup, tiering dei dati e sincronizzazione.
 
 * Utilizza il backup e ripristino BlueXP per eseguire il backup dei dati dai sistemi ONTAP on-premise allo storage a oggetti nei sistemi NetApp StorageGRID.
 +
@@ -22,6 +22,13 @@ Per iniziare, accedi all'area di lavoro BlueXP e trascina un ambiente di lavoro 
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Scopri di più sul backup on-premise dei dati ONTAP su StorageGRID"^]
+
+* Utilizza il tiering BlueXP  per eseguire automaticamente il tiering dei dati inattivi dai cluster ONTAP on-premise a StorageGRID.
++
+Per iniziare, accedi all'area di lavoro BlueXP e trascina un ambiente di lavoro ONTAP on-premise sull'ambiente di lavoro StorageGRID.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Scopri di più sul tiering dei dati dai cluster ONTAP on-premise a StorageGRID"^]
 
 * Utilizzare la copia e la sincronizzazione BlueXP per sincronizzare i dati da o verso un sistema StorageGRID.
 +

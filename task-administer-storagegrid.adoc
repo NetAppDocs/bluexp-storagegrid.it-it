@@ -1,0 +1,136 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 'Amministrare un sistema StorageGRID da BlueXP  utilizzando la vista avanzata. Questa visualizzazione consente di utilizzare Gestione griglia dall"ambiente di lavoro StorageGRID.' 
+---
+= Amministrare StorageGRID utilizzando la vista avanzata
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Amministrare un sistema StorageGRID da BlueXP  utilizzando la vista avanzata. Questa visualizzazione consente di utilizzare Gestione griglia dall'ambiente di lavoro StorageGRID.
+
+
+
+== Configurazioni supportate
+
+Grid Manager è disponibile in BlueXP  a partire da StorageGRID 11,8.
+
+
+
+== Limitazioni
+
+Le seguenti operazioni di gestione griglia non sono disponibili in BlueXP . Se è necessario eseguire queste operazioni, accedere direttamente a Grid Manager.
+
+[cols="1a,2a"]
+|===
+| Menu Grid Manager | Operazioni non disponibili da BlueXP  
+
+
+ a| 
+Utente
+ a| 
+* Link di disconnessione
+* Collegamento alla documentazione API
+* Cambia password
+
+
+
+
+ a| 
+Nodi
+ a| 
+* Non è possibile accedere a Gestione di sistema SANtricity dalla scheda nodi > Gestione di sistema SANtricity.
+* Durante la visualizzazione degli avvisi, potrebbe non essere possibile selezionare tutti i collegamenti nelle azioni consigliate. Ad esempio, i collegamenti alle pagine di Grid Manager non supportate non funzionano.
+
+
+
+
+ a| 
+Tenant
+ a| 
+Non è possibile accedere a un account tenant dalla procedura guidata Crea un tenant o dalla pagina tenant.
+
+BlueXP  attualmente non supporta il responsabile del tenant. Anche se puoi creare nuovi account tenant da BlueXP , gli utenti tenant non possono accedere ai loro account da BlueXP .
+
+
+
+ a| 
+ILM
+ a| 
+Collegamento gradi archiviazione
+
+
+
+ a| 
+Configurazione
+ a| 
+* Password di rete
+* Classificazione del traffico > metriche
+* Impostazioni di protezione > Timeout inattività browser
+* Single sign-on
+* Agente SNMP > file MIB per interfaccia BMC
+
+
+
+
+ a| 
+Manutenzione
+ a| 
+* Pacchetto di ripristino
+* Aggiornamento del software
+
+
+
+
+ a| 
+Supporto
+ a| 
+* Topologia a griglia
+* Registri
+* Metriche, inclusi tutti i collegamenti alle metriche Prometheus e alle dashboard Grafana da altri punti dell'interfaccia utente.
+* Tutte le opzioni per gli allarmi legacy
+* Costo del collegamento
+* Entità NMS
+
+
+|===
+
+
+== Passare alla vista avanzata
+
+Aprire un ambiente di lavoro StorageGRID e selezionare l'opzione di visualizzazione avanzata.
+
+.Fasi
+. Dalla pagina Canvas, aprire l'ambiente di lavoro StorageGRID.
+. In alto a destra, selezionare *passa alla visualizzazione avanzata*.
++
+image:screenshot-advanced-view.png["Schermata di un ambiente di lavoro StorageGRID che mostra l'opzione passa alla visualizzazione avanzata."]
+
+. Utilizzare Gestione griglia per gestire il sistema StorageGRID.
++
+Una differenza di cui tenere conto è che il menu Guida in Grid Manager è stato sostituito dal seguente menu:
+
++
+image:advanced-view-menu.png["Schermata di un ambiente di lavoro StorageGRID in cui è disponibile un menu di azione nella parte superiore destra dello schermo."]
+
++
+In questo menu sono disponibili tutte le stesse opzioni della guida, ad eccezione del collegamento alla documentazione API.
+
+. Se necessario, selezionare passa alla vista standard per tornare alla vista standard tramite BlueXP .
++
+image:screenshot-standard-view.png["Schermata di un ambiente di lavoro StorageGRID che mostra l'opzione passa alla vista standard."]
+
+
+
+
+
+== Assistenza con Grid Manager
+
+Per informazioni dettagliate sull'utilizzo di Grid Manager, consultare la sezione https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentazione StorageGRID"^] .
