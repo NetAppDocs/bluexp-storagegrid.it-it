@@ -26,7 +26,7 @@ sidebar:
     entries:
     - title: Visualizza i tuoi sistemi StorageGRID
       url: "/task-view-storagegrid.html"
-    - title: Gestire i certificati
+    - title: Visualizzare e aggiornare i certificati StorageGRID
       url: "/task-manage-certificates.html"
     - title: Amministrare StorageGRID utilizzando la vista avanzata
       url: task-administer-storagegrid.html

@@ -327,16 +327,11 @@
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Effettuare una delle seguenti operazioni:</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">Selezionare *approva certificato* per utilizzare il certificato.</block>
   <block id="deac8378c59fe3d88512463d35486723" category="paragraph">Viene visualizzato un messaggio di successo. Tutte le comunicazioni tra il server StorageGRID e il connettore BlueXP  verranno protette verificando il certificato approvato.</block>
-  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">USA un certificato diverso</block>
-  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">Selezionare *Annulla* per terminare il processo di ricerca senza verificare il certificato. Ad esempio, è possibile selezionare *Annulla* se si riceve un messaggio di errore che informa che il certificato di gestione StorageGRID deve essere aggiornato. Per aggiornare un certificato, accedere a <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>.</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">Dopo il rilevamento di un sistema StorageGRID in BlueXP , puoi utilizzare i servizi dati NetApp per backup, tiering dei dati e sincronizzazione.</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">Utilizza il tiering BlueXP  per eseguire automaticamente il tiering dei dati inattivi dai cluster ONTAP on-premise a StorageGRID.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">Scopri di più sul tiering dei dati dai cluster ONTAP on-premise a StorageGRID</block>
   <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="1c0cf398fca729802189afd04195daca" category="summary">Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.</block>
-  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">Gestire i certificati in BlueXP </block>
-  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">I certificati dell'interfaccia di gestione approvati dall'utente sono necessari per una connessione sicura tra BlueXP  e StorageGRID. Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.</block>
-  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">Visualizzare lo stato del certificato di inferenza di gestione</block>
   <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">Nella vista standard, verificare lo stato del certificato approvato dall'utente nella parte inferiore del riquadro _Information_ sul lato destro della pagina.</block>
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">Lo stato del certificato viene aggiornato ogni 24 ore.</block>
   <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">Schermata del riquadro informazioni nell'ambiente di lavoro.</block>
@@ -344,12 +339,10 @@
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">Aggiornare il certificato dell'interfaccia di gestione</block>
   <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">Se lo stato del certificato dell'interfaccia di gestione non è valido o se si riceve una notifica che indica che il certificato è scaduto, sarà necessario aggiornarlo in modo che BlueXP  possa connettersi a StorageGRID.</block>
   <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">Accedere al Grid Manager in sede in StorageGRID e seguire le istruzioni per<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>.</block>
-  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">Nel menu di navigazione Blue XP, selezionare *Storage &gt; Canvas*.</block>
   <block id="40540158a277d365081d54ce377ee023" category="list-text">Selezionare l'icona altre opzioni (cerchio con tre punti verticali).</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">Schermata del menu di aggiornamento.</block>
   <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">Selezionare *Aggiorna certificato*.</block>
-  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">È inoltre possibile aggiornare il certificato utilizzando l'icona altre opzioni (l'icona con tre punti verticali) nella vista Standard.</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">Nella pagina _approva certificato_, selezionare *approva certificato* per utilizzare il certificato aggiornato.</block>
   <block id="101a4dba130db08f412262b11097db65" category="list-text">Nella vista standard, selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.</block>
   <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">7 agosto 2024</block>
@@ -362,5 +355,12 @@
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">Informazioni su come esaminare e approvare il certificato del server durante il rilevamento del sistema.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">Gestisci i tuoi sistemi StorageGRID da BlueXP  utilizzando Grid Manager e utilizza i servizi dati di BlueXP per backup, tiering dei dati e altro ancora.</block>
-  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">Gestire i certificati</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">Selezionare *Annulla* per terminare il processo di ricerca senza verificare il certificato.</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">Ad esempio, è possibile selezionare *Annulla* se si riceve un messaggio di errore che informa che il certificato di gestione StorageGRID deve essere aggiornato.</block>
+  <block id="e9b0047ba9b98249dc4a3e9bc46a658e" category="paragraph">Per aggiornare un certificato, accedere al sistema StorageGRID, aggiornare il certificato, quindi riavviare il processo di rilevamento da BlueXP .</block>
+  <block id="a604d96f80b6dcdc7ff27801d921e9b3" category="doc">Visualizzare e aggiornare i certificati StorageGRID in BlueXP </block>
+  <block id="cac8f8d491009407dfbdb3b442860ade" category="paragraph">Prima di rilevare il sistema da BlueXP , è necessario disporre di un certificato di interfaccia di gestione sul sistema StorageGRID. Il certificato fornisce una connessione sicura tra BlueXP  e StorageGRID. Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.</block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">Visualizzare lo stato di un certificato dell'interfaccia di gestione</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">Visualizzare lo stato del certificato dell'interfaccia di gestione per un sistema StorageGRID per verificare che il certificato sia ancora valido.</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">Visualizzare e aggiornare i certificati StorageGRID</block>
 </blocks>

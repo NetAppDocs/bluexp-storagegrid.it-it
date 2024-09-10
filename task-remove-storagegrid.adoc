@@ -20,7 +20,7 @@ La rimozione dell'ambiente di lavoro non influisce sul sistema StorageGRID. Puoi
 
 .Fasi
 . Dal menu di navigazione, selezionare *Storage > Canvas*.
-. Nella pagina Canvas, selezionare l'ambiente di lavoro StorageGRID.
+. Dalla pagina Canvas, aprire l'ambiente di lavoro StorageGRID.
 . Nella vista standard, selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.
 +
 image:screenshot-remove.png["Una schermata dell'opzione Remove from Workspace (Rimuovi dall'area di lavoro) disponibile nel menu in alto a destra dell'ambiente di lavoro."]
