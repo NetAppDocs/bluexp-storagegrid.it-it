@@ -19,7 +19,10 @@ Scopri i sistemi StorageGRID nel tuo ambiente on-premise e gestili direttamente 
 .Prima di iniziare
 Sono necessari i seguenti elementi:
 
-* Un connettore installato in un cloud provider o on-premise, con connettività di rete al sistema StorageGRID.
+* Connettore con versione 3.9.43 o successiva e connettività di rete al sistema StorageGRID.
++
+Il connettore può risiedere nel cloud o on-premise. È sufficiente una connessione di rete al sistema StorageGRID.
+
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Scopri di più sui connettori e su come crearne uno"^]
 
