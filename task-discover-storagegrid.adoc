@@ -19,7 +19,8 @@ Scopri i sistemi StorageGRID nel tuo ambiente on-premise e gestili direttamente 
 .Prima di iniziare
 Sono necessari i seguenti elementi:
 
-* Connettore con versione 3.9.43 o successiva e connettività di rete al sistema StorageGRID.
+* Una nuova installazione del connettore utilizzando la versione 3.9.43 o successiva.
+* Connettività di rete dal connettore al sistema StorageGRID.
 +
 Il connettore può risiedere nel cloud o on-premise. È sufficiente una connessione di rete al sistema StorageGRID.
 
