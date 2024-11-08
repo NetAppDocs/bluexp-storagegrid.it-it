@@ -47,4 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["Avviso per BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["Avviso per BlueXP"^]
+* link:media/notice.pdf["Avviso per la gestione BlueXP  dei sistemi StorageGRID"^]
+
