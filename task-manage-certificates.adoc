@@ -16,6 +16,9 @@ summary: Poiché i certificati possono scadere, a volte potrebbe essere necessar
 [role="lead"]
 Prima di rilevare il sistema da BlueXP , è necessario disporre di un certificato di interfaccia di gestione sul sistema StorageGRID. Il certificato fornisce una connessione sicura tra BlueXP  e StorageGRID. Poiché i certificati possono scadere, a volte potrebbe essere necessario visualizzare lo stato o aggiornare un certificato.
 
+.Ruolo BlueXP richiesto:
+Amministratore dell'organizzazione, amministratore di cartelle o progetti oppure amministratore di archiviazione. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso BlueXP."^]
+
 
 
 == Visualizzare lo stato di un certificato dell'interfaccia di gestione

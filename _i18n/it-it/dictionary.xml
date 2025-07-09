@@ -8,14 +8,11 @@
   <block id="e1bb8de567622bad90039f45af7d579c" category="paragraph">Per iniziare, accedi all'area di lavoro di BlueXP e trascina l'ambiente di lavoro di origine nell'ambiente di lavoro di destinazione. StorageGRID può essere l'origine o la destinazione.</block>
   <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">Scopri di più sulla copia e la sincronizzazione di BlueXP</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">Scopri i sistemi StorageGRID</block>
-  <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">Scopri di più sui connettori e su come crearne uno</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">Il nome di dominio o l'indirizzo IP del nodo admin.</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">Credenziali di amministratore per il nodo admin.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
   <block id="520851e11d4657fa15ed8a11da0eec00" category="list-text">Dal menu di navigazione di BlueXP, selezionare *Storage &gt; Canvas*.</block>
   <block id="c1337bb911d61c7e24f0143c98280728" category="list-text">Accanto a *StorageGRID*, selezionare *Discover*.</block>
-  <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">Se richiesto, creare un connettore.</block>
-  <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">Per ulteriori informazioni, fare riferimento al link riportato sopra.</block>
   <block id="b692c7e41f214f1934d82e1fb8c34551" category="inline-image-macro">Una schermata che mostra la pagina Dettagli cluster StorageGRID in cui inserire il nome di dominio o l'indirizzo IP del nodo admin e le credenziali.</block>
   <block id="6f4e41dd41fcea233053f2ba61b3e93c" category="paragraph"><block ref="6f4e41dd41fcea233053f2ba61b3e93c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Risultato</block>
@@ -167,7 +164,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinar sul cloud</block>
   <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="5693110829c37bf470028ed210aaa3a9" category="paragraph"><block ref="5693110829c37bf470028ed210aaa3a9" category="inline-link-rx"></block></block>
-  <block id="30e1f00c72b63f8042f24c3558ddb8e3" category="paragraph"><block ref="30e1f00c72b63f8042f24c3558ddb8e3" category="inline-link-rx"></block></block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
@@ -307,7 +303,6 @@
   <block id="883de86cf908ad706df604bca20d6e9d" category="list-text">BlueXP  recupera automaticamente il certificato dell'interfaccia di gestione StorageGRID. Nella pagina _approva certificato_, esaminare i dettagli del certificato.</block>
   <block id="bd9fb575ba237f8ebfeb0706ecdcbb14" category="inline-image-macro">Schermata che mostra la schermata approva certificato visualizzata durante il rilevamento di un sistema StorageGRID</block>
   <block id="5d2ec429ab6adc62b7ef0809eb5d31b6" category="paragraph"><block ref="5d2ec429ab6adc62b7ef0809eb5d31b6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="99ffc4996ddbc66ec3d88c9143de92ee" category="list-text">Se si desidera utilizzare un certificato diverso da quello visualizzato, è necessario prima configurarlo sul sistema StorageGRID.</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">Installazione di un certificato di interfaccia di gestione su StorageGRID</block>
   <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">Nel sistema StorageGRID in loco, seguire le istruzioni:<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block>.</block>
   <block id="db712f470bd74a71528f96d96eeba458" category="list-text">Dopo aver configurato il certificato nel sistema StorageGRID, selezionare *Annulla* nella pagina _approva certificato_ in BlueXP .</block>
@@ -315,7 +310,6 @@
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">In alternativa, selezionare *Copia certificato* per copiare i dettagli del certificato. Se lo si desidera, è possibile utilizzare i dettagli del certificato per eseguire una convalida aggiuntiva.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Effettuare una delle seguenti operazioni:</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">Selezionare *approva certificato* per utilizzare il certificato.</block>
-  <block id="deac8378c59fe3d88512463d35486723" category="paragraph">Viene visualizzato un messaggio di successo. Tutte le comunicazioni tra il server StorageGRID e il connettore BlueXP  verranno protette verificando il certificato approvato.</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">Dopo il rilevamento di un sistema StorageGRID in BlueXP , puoi utilizzare i servizi dati NetApp per backup, tiering dei dati e sincronizzazione.</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">Utilizza il tiering BlueXP  per eseguire automaticamente il tiering dei dati inattivi dai cluster ONTAP on-premise a StorageGRID.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">Scopri di più sul tiering dei dati dai cluster ONTAP on-premise a StorageGRID</block>
@@ -362,9 +356,18 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">È necessario associare le credenziali del sito di supporto NetApp alla propria organizzazione BlueXP  per abilitare i seguenti flussi di lavoro chiave per Cloud Volumes ONTAP:</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">L'associazione delle credenziali NSS all'organizzazione BlueXP  è diversa dall'account NSS associato a un accesso utente BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Queste credenziali NSS sono associate all'ID organizzazione BlueXP  specifico dell'utente. Gli utenti che appartengono all'organizzazione BlueXP  possono accedere a queste credenziali da *supporto &gt; Gestione NSS*.</block>
-  <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">Il connettore può risiedere nel cloud o on-premise. È sufficiente una connessione di rete al sistema StorageGRID.</block>
-  <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">Una nuova installazione del connettore utilizzando la versione 3.9.43 o successiva.</block>
-  <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">Connettività di rete dal connettore al sistema StorageGRID.</block>
   <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">Avviso per la gestione BlueXP  dei sistemi StorageGRID</block>
   <block id="99395adb6824d0f0da9a0ed98f9378f9" category="list-text"><block ref="99395adb6824d0f0da9a0ed98f9378f9" category="inline-link-macro-rx"></block></block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">Ruoli di accesso BlueXP necessari</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">Scopri di più sui ruoli di accesso BlueXP.</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">Ora è necessario uno dei seguenti ruoli di accesso per visualizzare, scoprire o gestire StorageGRID in BlueXP: *Amministratore organizzazione*, *Amministratore cartella o progetto*, *Amministratore archiviazione* o *Specialista integrità archiviazione*. <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="2c90d6804b5a2b571ff0d84400597f77" category="doc">Gestire StorageGRID utilizzando Grid Manager in BlueXP</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">Ruolo BlueXP richiesto:</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">Amministratore dell'organizzazione, amministratore di cartelle o progetti, amministratore di archiviazione o specialista dell'integrità del sistema. <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">Contatta l'amministratore della tua organizzazione.</block>
+  <block id="75fe746a91853f8805bc964f8f8f47bb" category="list-text">Un connettore che utilizza la versione 3.9.43 o successiva. Per installare un connettore, è necessario disporre del ruolo di amministratore dell'organizzazione. Se non sai se la tua organizzazione ha un connettore o se devi crearne uno, contatta l'amministratore BlueXP . <block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
+  <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">Per utilizzare un certificato diverso, è necessario prima configurarlo sul sistema StorageGRID .</block>
+  <block id="6ffd37b9a5dfcec944420f7e8015504a" category="paragraph">BlueXP visualizza un messaggio di successo e protegge tutte le comunicazioni tra il server StorageGRID e il connettore BlueXP verificando il certificato approvato.</block>
+  <block id="5bc6f7894821932fa85d795cfc188701" category="paragraph">Amministratore dell'organizzazione, amministratore di cartelle o progetti oppure amministratore di archiviazione. <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">12 maggio 2025</block>
 </blocks>
